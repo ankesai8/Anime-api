@@ -32,7 +32,7 @@ function displayResult(res) {
         div.appendChild(img);
 
         let title = document.createElement("h4");
-        titile.innerHTML = "Title: " + res[content].title;
+        title.innerHTML = "Title: " + res[content].title;
         div.appendChild(title);
 
         let type = document.createElement("h4");
@@ -52,7 +52,7 @@ function displayResult(res) {
         div.appendChild(enddate);
 
         let rated = document.createElement("h4");
-        rated.innerHTML = "rated: " + res[content].type;
+        rated.innerHTML = "Rated: " + res[content].type;
         div.appendChild(rated);
 
         Animedata.appendChild(div);
