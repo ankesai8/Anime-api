@@ -16,8 +16,7 @@ async function getAnimedata1() {
 }
 
 function displayResult(res) {
-    // let Animedataimg = document.getElementById("Animedataimg");
-    // Animedataimg.innerHTML = "";
+   
     let Animedata = document.getElementById("Animedata");
     Animedata.innerHTML = "";
 
